@@ -1,0 +1,10 @@
+[
+  {
+    "content": "Buy cheese",
+    "completed": false
+  },
+  {
+    "content": "Work a lot",
+    "completed": true
+  }
+]
