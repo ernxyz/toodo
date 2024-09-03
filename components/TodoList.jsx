@@ -73,11 +73,11 @@ const styles = StyleSheet.create({
     paddingTop: 10,
     backgroundColor: darkTheme.colors.backdrop,
     borderRadius: 10,
+    maxHeight: 500,
   },
   scroll: {
     height: "95%",
-    paddingBottom: 40,
-    marginBottom: 40,
+    maxHeight: 580,
     overflow: "hidden"
   },
   message: {

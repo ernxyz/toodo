@@ -53,21 +53,21 @@ export default function App() {
               toSelectList={setSelectedList}
             />
             <ScrollView>
-              <KeyboardAvoidingView style={styles.container} behavior="height">
-                <View style={{height: 100, ...styles.section}}>
+              <KeyboardAvoidingView style={styles.container}>
+                <View style={{ flex: 1, ...styles.section}}>
                   <PickAList
                     items={lists}
                     selectList={setSelectedList}
                     selected={selectedList}
                   />
                 </View>
-                <View style={{height: 100, ...styles.section}}>
+                <View style={{ flex: 2, ...styles.section}}>
                   <FormTodo
                     selectedList={selectedList}
                     setSelected={setSelectedList}
                   />
                 </View>
-                <View style={{height: 580, ...styles.section}}>
+                <View style={{ flex: 3, ...styles.section}}>
                   <TodoList
                     selectedList={selectedList}
                     setSelected={setSelectedList}

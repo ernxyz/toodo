@@ -28,7 +28,7 @@ const AppBar = ({ toSelectList }) => {
       >
         <Appbar.Content title="TooDo App" titleStyle={styles.title} />
         <Appbar.Content title="" />
-        <Appbar.Content title="Add new list:" titleStyle={styles.actionTitle} />
+        <Appbar.Content title="Add list:" titleStyle={styles.actionTitle} />
         <Appbar.Action icon="plus-box" onPress={showModal} />
       </Appbar.Header>
       <ModalAddList
